@@ -22,10 +22,10 @@
   resolved "https://registry.yarnpkg.com/@ant-design/icons/-/icons-2.1.1.tgz#7b9c08dffd4f5d41db667d9dbe5e0107d0bd9a4a"
   integrity sha512-jCH+k2Vjlno4YWl6g535nHR09PwCEmTBKAG6VqF+rhkrSPRLfgpU2maagwbZPLjaHuU5Jd1DFQ2KJpQuI6uG8w==
 
-"@aomao/engine@^2.6.14":
-  version "2.6.14"
-  resolved "https://registry.yarnpkg.com/@aomao/engine/-/engine-2.6.14.tgz#3ef040400174fbcb1c6e7ea8b7178fad537586e3"
-  integrity sha512-B4lenlfnzrapw6pPwrbsiavTTYK2piMVi0MC+hcjVUFl/mZmbyC5IMVT6vAIDjN2qpA+S2lJcb+rRo1oBLw8DA==
+"@aomao/engine@^2.9.0", "@aomao/engine@^2.9.5":
+  version "2.9.5"
+  resolved "https://registry.npmjs.org/@aomao/engine/-/engine-2.9.5.tgz#cc8bf43a3446b72cb96409fca0acca20f709f1a6"
+  integrity sha512-sYZZQ2fIGR+UcJokAUb4SUTD7omo31XngO7Ts9KGFQd2NtqGCjCFXni0LwTqj5gRof37mmWQLGUSAUVQhMCMSQ==
   dependencies:
     "@babel/runtime" "^7.13.10"
     blueimp-md5 "^2.18.0"
@@ -35,24 +35,25 @@
     eventemitter2 "^6.4.4"
     filesize "^6.3.0"
     is-hotkey "^0.2.0"
-    lodash-es "^4.17.21"
+    lodash "^4.17.21"
+    markdown-it "^13.0.1"
     ot-json0 "^1.1.0"
     tinycolor2 "^1.4.2"
 
-"@aomao/plugin-bold@^2.6.14":
-  version "2.6.14"
-  resolved "https://registry.yarnpkg.com/@aomao/plugin-bold/-/plugin-bold-2.6.14.tgz#5952d74099cb3b3158c14d52831f112f9dfa3286"
-  integrity sha512-4RVU+svy7S0SdDjtg91i0PUAmbCej4eV+bzf2NWwwyLAbS72ExiUirSzJhE20rn1ycPIkdalyND4DUibvVK+YQ==
+"@aomao/plugin-bold@^2.9.5":
+  version "2.9.5"
+  resolved "https://registry.npmjs.org/@aomao/plugin-bold/-/plugin-bold-2.9.5.tgz#40b4b2f60e357214fb516d0be2c6158e5203e117"
+  integrity sha512-EHHRlBHf3bRbzXTkXWfCz0Kdfgb+NfqfTo6KzAOmceQtq6xWQZUECVtfmnKvPJoMd8QmFqDMn0HFe4ytWmkaIA==
   dependencies:
-    "@aomao/engine" "^2.6.14"
+    "@aomao/engine" "^2.9.5"
     "@babel/runtime" "^7.13.10"
 
-"@aomao/plugin-heading@^2.6.14":
-  version "2.6.14"
-  resolved "https://registry.yarnpkg.com/@aomao/plugin-heading/-/plugin-heading-2.6.14.tgz#6d5b2f7f5d98eebf3bf2ea8ce5c7ff287a4da6cb"
-  integrity sha512-LWXlnegpzXKEYM8rCEkM4jLl2gaydut/dbQxV1lRYtfpdW5dfNoBUz5bwHj970L9+bWvrX3Bx/5u9dSR5bIaHw==
+"@aomao/plugin-heading@^2.9.5":
+  version "2.9.5"
+  resolved "https://registry.npmjs.org/@aomao/plugin-heading/-/plugin-heading-2.9.5.tgz#7be2a9633678cd39a1c536138983a2aea628afb9"
+  integrity sha512-Ol9UZdf69BEGVTlDKcjo2jUUPiOkVCCtp6MHH38ctu+rqJHsoJcsLa9Ir8920rLbYAuZ8zCbD5Dq4rrdSU6W+g==
   dependencies:
-    "@aomao/engine" "^2.6.14"
+    "@aomao/engine" "^2.9.5"
     "@babel/runtime" "^7.13.10"
 
 "@babel/code-frame@^7.16.0":
@@ -1722,28 +1723,28 @@ alphanum-sort@^1.0.0:
   resolved "https://registry.yarnpkg.com/alphanum-sort/-/alphanum-sort-1.0.2.tgz#97a1119649b211ad33691d9f9f486a8ec9fbe0a3"
   integrity sha1-l6ERlkmyEa0zaR2fn0hqjsn74KM=
 
-am-editor-codeblock-vue2@^1.0.12:
-  version "1.0.12"
-  resolved "https://registry.yarnpkg.com/am-editor-codeblock-vue2/-/am-editor-codeblock-vue2-1.0.12.tgz#5ea91eb2f15ccbc3a2651cb96ccc29efed509a2f"
-  integrity sha512-h2bTNCJuG4ydtWv8FjF//LI7YS12rdeHuCW+CSWr11bnGm5vyzJihEXIhCYfagLuJQAdzXpkygakPyjXZ4hhOA==
+am-editor-codeblock-vue2@^1.1.0:
+  version "1.1.1"
+  resolved "https://registry.npmjs.org/am-editor-codeblock-vue2/-/am-editor-codeblock-vue2-1.1.1.tgz#7a695310c8bdf33911ddc476d2b5f8b890d45f5d"
+  integrity sha512-a3NC6B//bcs6ExG5CXOh5l3/Zpxf15IsYDFOICkU2XJ1pw0mAVYn7sUI5PIn/DBacMwF+ifwIFf8y7rJKayTpg==
   dependencies:
-    "@aomao/engine" "^2.6.14"
+    "@aomao/engine" "^2.9.0"
     "@babel/runtime" "^7.13.10"
     ant-design-vue "^1.7.8"
     codemirror "^5.63.3"
-    lodash-es "^4.17.21"
+    lodash "^4.17.21"
     vue "^2.6.14"
 
-am-editor-toolbar-vue2@^1.0.11:
-  version "1.0.11"
-  resolved "https://registry.yarnpkg.com/am-editor-toolbar-vue2/-/am-editor-toolbar-vue2-1.0.11.tgz#64662b328c67a2559287a3a1f3b03f4f2736637b"
-  integrity sha512-yy5YCqoWsTbHzMoI/xrqJhO/6Gj0L3w3ncaR+mxBd5qT/5AAG6ckXgzObZbqVfWLe/IiQpJtrea53H2bUM43Sg==
+am-editor-toolbar-vue2@^1.1.0:
+  version "1.1.5"
+  resolved "https://registry.npmjs.org/am-editor-toolbar-vue2/-/am-editor-toolbar-vue2-1.1.5.tgz#0254ec6f3f3302445e96bcc65f5617e1b17fc736"
+  integrity sha512-N+49LMANQTY3yEeCCTJpfapySnIy35R0ek/km4zY+4gVH3UT6375uJvHl0QHKMTFsa2jEXYhzcov87MUMESTvA==
   dependencies:
-    "@aomao/engine" "^2.6.14"
+    "@aomao/engine" "^2.9.0"
     "@babel/runtime" "^7.13.10"
     ant-design-vue "^1.7.8"
     keymaster "^1.6.2"
-    lodash-es "^4.17.21"
+    lodash "^4.17.21"
     tinycolor2 "^1.4.2"
     vue "^2.6.14"
 
@@ -1863,6 +1864,11 @@ argparse@^1.0.7:
   integrity sha512-o5Roy6tNG4SL/FOkCAN6RzjiakZS25RLYFrcMttJqbdd8BWrnA+fGz57iN5Pb06pvBGvl5gQ0B48dJlslXvoTg==
   dependencies:
     sprintf-js "~1.0.2"
+
+argparse@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.npmjs.org/argparse/-/argparse-2.0.1.tgz#246f50f3ca78a3240f6c997e8a9bd1eac49e4b38"
+  integrity sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==
 
 arr-diff@^4.0.0:
   version "4.0.0"
@@ -3362,6 +3368,11 @@ entities@^2.0.0:
   resolved "https://registry.yarnpkg.com/entities/-/entities-2.2.0.tgz#098dc90ebb83d8dffa089d55256b351d34c4da55"
   integrity sha512-p92if5Nz619I0w+akJrLZH0MX0Pb5DX39XOwQTtXSdQQOaYH03S1uIQp4mhOZtAXrxq4ViO67YTiLBo2638o9A==
 
+entities@~3.0.1:
+  version "3.0.1"
+  resolved "https://registry.npmjs.org/entities/-/entities-3.0.1.tgz#2b887ca62585e96db3903482d336c1006c3001d4"
+  integrity sha512-WiyBqoomrwMdFG1e0kqvASYfnlb0lp8M5o5Fw2OFq1hNZxxcNk8Ik0Xm7LxzBhuidnZB/UtBqVCgUz3kBOP51Q==
+
 errno@^0.1.1, errno@^0.1.3, errno@~0.1.7:
   version "0.1.8"
   resolved "https://registry.yarnpkg.com/errno/-/errno-0.1.8.tgz#8bb3e9c7d463be4976ff888f76b4809ebc2e811f"
@@ -4783,6 +4794,13 @@ less@^3.0.4:
     native-request "^1.0.5"
     source-map "~0.6.0"
 
+linkify-it@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.npmjs.org/linkify-it/-/linkify-it-4.0.1.tgz#01f1d5e508190d06669982ba31a7d9f56a5751ec"
+  integrity sha512-C7bfi1UZmoj8+PQx22XyeXCuBlokoyWQL5pWSP+EI6nzRylyThouddufc2c1NDIcP9k5agmN9fLpA7VNJfIiqw==
+  dependencies:
+    uc.micro "^1.0.1"
+
 loader-runner@^2.4.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/loader-runner/-/loader-runner-2.4.0.tgz#ed47066bfe534d7e84c4c7b9998c2a75607d9357"
@@ -4825,11 +4843,6 @@ locate-path@^5.0.0:
   integrity sha512-t7hw9pI+WvuwNJXwk5zVHpyhIqzg2qTlklJOf0mVxGSbe3Fp2VieZcduNYjaLDoy6p9uGpQEGWG87WpMKlNq8g==
   dependencies:
     p-locate "^4.1.0"
-
-lodash-es@^4.17.21:
-  version "4.17.21"
-  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.21.tgz#43e626c46e6591b7750beb2b50117390c609e3ee"
-  integrity sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==
 
 lodash._reinterpolate@^3.0.0:
   version "3.0.0"
@@ -4958,6 +4971,17 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
+markdown-it@^13.0.1:
+  version "13.0.1"
+  resolved "https://registry.npmjs.org/markdown-it/-/markdown-it-13.0.1.tgz#c6ecc431cacf1a5da531423fc6a42807814af430"
+  integrity sha512-lTlxriVoy2criHP0JKRhO2VDG9c2ypWCsT237eDiLqi09rmbKoUetyGHq2uOIRoRS//kfoJckS0eUzzkDR+k2Q==
+  dependencies:
+    argparse "^2.0.1"
+    entities "~3.0.1"
+    linkify-it "^4.0.1"
+    mdurl "^1.0.1"
+    uc.micro "^1.0.5"
+
 md5.js@^1.3.4:
   version "1.3.5"
   resolved "https://registry.yarnpkg.com/md5.js/-/md5.js-1.3.5.tgz#b5d07b8e3216e3e27cd728d72f70d1e6a342005f"
@@ -4976,6 +5000,11 @@ mdn-data@2.0.4:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-2.0.4.tgz#699b3c38ac6f1d728091a64650b65d388502fd5b"
   integrity sha512-iV3XNKw06j5Q7mi6h+9vbx23Tv7JkjEVgKHW4pimwyDGWm0OIQntJJ+u1C6mg6mK1EaTv42XQ7w76yuzH7M2cA==
+
+mdurl@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/mdurl/-/mdurl-1.0.1.tgz#fe85b2ec75a59037f2adfec100fd6c601761152e"
+  integrity sha1-/oWy7HWlkDfyrf7BAP1sYBdhFS4=
 
 mem@^8.1.1:
   version "8.1.1"
@@ -7706,6 +7735,11 @@ ua-parser-js@^0.7.28:
   version "0.7.31"
   resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.31.tgz#649a656b191dffab4f21d5e053e27ca17cbff5c6"
   integrity sha512-qLK/Xe9E2uzmYI3qLeOmI0tEOt+TBBQyUIAh4aAgU05FVYzeZrKUdkAZfBNVGRaHVgV0TDkdEngJSw/SyQchkQ==
+
+uc.micro@^1.0.1, uc.micro@^1.0.5:
+  version "1.0.6"
+  resolved "https://registry.npmjs.org/uc.micro/-/uc.micro-1.0.6.tgz#9c411a802a409a91fc6cf74081baba34b24499ac"
+  integrity sha512-8Y75pvTYkLJW2hWQHXxoqRgV7qb9B+9vFEtidML+7koHUFapnVJAZ6cKs+Qjz5Aw3aZWHMC6u0wJE3At+nSGwA==
 
 ufo@^0.7.4:
   version "0.7.9"
